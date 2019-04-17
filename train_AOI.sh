@@ -1,0 +1,1 @@
+python train.py --name AOI_A2B_s2 --label_nc 0  --no_instance --loadhSize 512 --loadwSize 512 --input_nc 1 --resize_or_crop resize --n_blocks_global 5 --n_downsample_global 3 --ngf 26 --batchSize 4 --display_freq 20 --gpu_ids 0,1,2,3

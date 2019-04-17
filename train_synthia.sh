@@ -1,0 +1,1 @@
+python train.py --name synthia_s2 --dataroot ./datasets/synthia/ --label_nc 19  --loadhSize 512 --loadwSize 512  --resize_or_crop resize --n_blocks_global 5 --n_downsample_global 3  --ngf 26 --display_freq 10 --batchSize 4 --gpu_ids 0,1,2,3

@@ -1,0 +1,1 @@
+python test.py --name synthia_s2 --dataroot ./datasets/synthia/ --label_nc 19  --loadhSize 512 --loadwSize 512 --resize_or_crop resize --n_blocks_global 5 --n_downsample_global 3   --load_pretrain ./checkpoints/synthia_s2/  --ngf 26
